@@ -1,0 +1,191 @@
+/* Global Styles */
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-family: Helvetica, arial, sans-serif;
+	background-image: url("../background img/what-the-hex.png");
+}
+
+.container {
+	width: 81%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* Logo And Navigation */
+/* Drop Shadow */
+#main-header > div {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #fff;
+    padding-bottom: 2px;
+    height: 90px;
+}
+
+#branding {
+	width: 100%;
+	display: inline;
+	float: left;
+}
+
+#branding a {
+	text-decoration: none;
+	color: #000;
+}
+
+#branding #image-logo img {
+	width: 90px;
+	float: left;
+	margin-left: 5px;
+}
+
+#branding #text-logo img {
+	position: relative;
+	width: 450px;
+	margin-top: -38px;
+	margin-left: -90px;
+	padding-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#navbar {
+	float: right;
+	display: inline;
+	position: relative;
+	margin-right: 40px;
+	margin-top: -140px;
+}
+
+#navbar ul li {
+	display: inline;
+	padding-right: 40px;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+.current-page {
+	font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+	margin-bottom: 10px;
+}
+
+#showcase img {
+	margin-top: 15px;
+}
+
+/* Cards 1, 2, 4 */
+.card {
+	float: left;
+	width: 25%;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-top: 2px solid #000;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+	margin-top: 5px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card h4, .card p {
+	margin: 0px;
+	font-size: 18px;
+}
+
+/* First Sidebar Right Side */
+#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 40px;
+	margin-right: 40px;
+	border-top: 2px solid #000;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#sidebar:hover {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+#sidebar img {
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+#sidebar h4, #sidebar p {
+	margin: 0px;
+	font-size: 18px;
+}
+
+/* Card 3 */
+#card-1 {
+	padding-left: 0px;
+	float: left;
+	width: 30%;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-top: 2px solid #000;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#card-1:hover {
+	box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+#card-1 img {
+	width: 100%;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+#card-1 h4, #card-1 p {
+	margin: 0px;
+	font-size: 18px;
+}
+
+/* Footer */
+#footer {
+	text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    min-height: 40px;
+    border-top: 2px solid #000;
+    /*
+    box-shadow: 0 0px 0px 3px rgba(0,0,0,0.2);
+    /*
+    border-top: 3px solid black;
+    */
+}
+
+
+
+
+
+
+
+
